@@ -8,3 +8,8 @@ DevNet is home to Cisco’s API guides, and Postman plays a central role in help
 DevNet team has posted collections to the [Postman API Network](https://explore.postman.com/ciscodevnet), thus delivering Cisco’s APIs to an expanded community of more than 10 million developers. The team continues to add more collections to the network spanning Cisco’s networking, security, and video conferencing solutions. Users can not only discover APIs, but they can also import collections directly to local clients. To date, the Cisco page has delivered more than three thousand imports.
 
 Many of Cisco’s APIs are connected to hardware devices, which can make it difficult for users in an exploratory phase to have a meaningful interaction with the APIs. For help in such scenarios, be sure to check out the [DevNet Sandbox](https://developer.cisco.com/site/sandbox/), home to Always-On and Reservable sandboxes that in many cases can alleviate the need for you to setup you own private lab environment.
+
+## URLs
+
+Automating and Programming Cisco Data Center Solutions v1.0 (300-635) [DCAUTO 300-635](https://developer.cisco.com/certification/exam-topic-dc-auto/)   
+
