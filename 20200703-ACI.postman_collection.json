@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "7355eb78-1b60-4ca4-9b03-d1ed9135a3c8",
+		"name": "20200703-ACI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://sandboxapicdc.cisco.com/api/aaaLogin.json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"aaaUser\": {\r\n        \"attributes\": {\r\n            \"name\": \"admin\",\r\n            \"pwd\": \"ciscopsdt\"\r\n        }\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sandboxapicdc.cisco.com/api/aaaLogin.json",
+					"protocol": "https",
+					"host": [
+						"sandboxapicdc",
+						"cisco",
+						"com"
+					],
+					"path": [
+						"api",
+						"aaaLogin.json"
+					]
+				},
+				"description": "https://developer.cisco.com/learning/devnet-express/devnet-express-dci-v2/dne-dci-intro-aci/dne-dci-intro-aci-02_programmability-options/step/5"
+			},
+			"response": []
+		},
+		{
+			"name": "https://sandboxapicdc.cisco.com/api/mo/uni/tn-tomyan-20200703",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sandboxapicdc.cisco.com/api/class/fvAp.json?",
+					"protocol": "https",
+					"host": [
+						"sandboxapicdc",
+						"cisco",
+						"com"
+					],
+					"path": [
+						"api",
+						"class",
+						"fvAp.json"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sandboxapicdc.cisco.com/api/mo/uni/tn-007.json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fvTenant\": {\r\n        \"attributes\": {\r\n            \"name\": \"007\",\r\n            \"descr\": \"007\",\r\n            \"status\": \"modified\"\r\n        }\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sandboxapicdc.cisco.com/api/mo/uni/tn-007.json",
+					"protocol": "https",
+					"host": [
+						"sandboxapicdc",
+						"cisco",
+						"com"
+					],
+					"path": [
+						"api",
+						"mo",
+						"uni",
+						"tn-007.json"
+					]
+				},
+				"description": "Upate the descirption of tenant named 007"
+			},
+			"response": []
+		},
+		{
+			"name": "Update-0703_TomYan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fvTenant\": {\r\n        \"attributes\": {\r\n            \"name\": \"0703_TomYan\",\r\n            \"descr\": \"Testing\\u6d4b\\u8bd5\",\r\n            \"status\": \"modified\"\r\n        }\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sandboxapicdc.cisco.com/api/mo/uni/tn-0703_TomYan.json",
+					"protocol": "https",
+					"host": [
+						"sandboxapicdc",
+						"cisco",
+						"com"
+					],
+					"path": [
+						"api",
+						"mo",
+						"uni",
+						"tn-0703_TomYan.json"
+					]
+				},
+				"description": "Upate the descirption of tenant named 007"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Tenant Info-XML format",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sandboxapicdc.cisco.com/api/mo/uni/tn-0703_TomYan.xml",
+					"protocol": "https",
+					"host": [
+						"sandboxapicdc",
+						"cisco",
+						"com"
+					],
+					"path": [
+						"api",
+						"mo",
+						"uni",
+						"tn-0703_TomYan.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Tenant Info-JSON Format",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sandboxapicdc.cisco.com/api/mo/uni/tn-0703_TomYan.json",
+					"protocol": "https",
+					"host": [
+						"sandboxapicdc",
+						"cisco",
+						"com"
+					],
+					"path": [
+						"api",
+						"mo",
+						"uni",
+						"tn-0703_TomYan.json"
+					]
+				},
+				"description": "https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/2-x/rest_cfg/2_1_x/b_Cisco_APIC_REST_API_Configuration_Guide/b_Cisco_APIC_REST_API_Configuration_Guide_chapter_01.html"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
